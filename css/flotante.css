@@ -1,0 +1,76 @@
+.flotante{
+    transform: translateY(10%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    width: 600px;
+    height: 20rem;
+    border-radius: 1rem;
+    transform: translate(0%);
+
+    box-shadow: 0px 3px 0px 0px rgba(68, 68, 68, 0.384);
+
+    position: relative;
+    bottom: 65rem;
+    left: 13.5rem;
+}
+
+.flotante p{
+    text-align: center;
+    display: block;
+    padding: 5rem 1rem 1rem 1rem;
+    margin: auto;
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    background-color: transparent;
+}
+
+#toggle:checked ~ .flotante{
+    opacity: 1;
+    transform: translateY(-10%);
+}
+
+#toggle{
+    position: relative;
+    bottom: 40rem;
+}
+
+b{
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    .flotante{
+        width: 300px;
+        position: relative;
+        bottom: 94rem;
+        left: 6.7rem;
+    }
+
+    #toggle{
+        bottom: 80rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .flotante{
+        width: 300px;
+        position: relative;
+        bottom: 94rem;
+        left: 4.2rem;
+    }
+
+    #toggle{
+        bottom: 80rem;
+    }
+
+}

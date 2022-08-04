@@ -1,0 +1,36 @@
+.principal{
+    margin: auto;
+    margin-top: 20rem;
+    height: auto;
+
+    width: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.principal img{
+    margin: 2rem;
+    display: flex;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+    .principal img{
+        margin: 1rem;
+        position: relative;
+        right: 5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .principal{
+        width: 100%;
+        position: relative;
+        left: 5.5rem;
+    }
+}

@@ -1,0 +1,88 @@
+.baner{
+    display: block;
+    color: white;
+    background-color: #202020;
+    height: 35rem;
+    width: 100%;
+}
+
+.titulo{
+    background-color: transparent;
+    font-size: 4rem;
+    position: absolute;
+    top: 9.9rem;
+    left: 4rem;
+    width: 50%;
+}
+
+.texto{
+    background-color: transparent;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 16rem;
+    left: 4rem;
+    width: 40%;
+}
+
+.logoN{
+    background-color: transparent;
+    position: absolute;
+    left: 70rem;
+    bottom: 17rem;
+    display: flex;
+}
+
+.botonb{
+    position: absolute;
+    bottom: 16rem;
+    left: 4rem;
+}
+
+
+@media screen and (max-width:1024px) {
+    .baner{
+        width: 1024px;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+    .texto{
+        width: 90%;
+    }
+
+    .botonb{
+        position: relative;
+        top: 25rem;
+    }
+
+    .contenedor_L1{
+        right: 10rem;
+        position: relative;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .baner{
+        width: 768px;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+    .texto{
+        width: 90%;
+    }
+
+    .botonb{
+        position: relative;
+        top: 25rem;
+    }
+
+    .contenedor_L1{
+        right: 10rem;
+        position: relative;
+        opacity: 0;
+    }
+}

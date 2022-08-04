@@ -1,0 +1,124 @@
+.op1{
+    position: relative;
+    bottom: 43rem;
+    left: 26rem;
+}
+
+
+.op2{
+    position: relative;
+    bottom: 66.5rem;
+    left: 50rem;
+}
+
+
+.op3{
+    position: relative;
+    bottom: 70rem;
+    left: 73.5rem;
+}
+
+
+.op4{
+    position: relative;
+    bottom: 39.5rem;
+    left: 50rem;
+}
+
+
+.op5{
+    position: relative;
+    bottom: 43rem;
+    left: 73.5rem;
+
+}
+
+
+.op6{
+    position: relative;
+    bottom: 46.5rem;
+    left: 26rem;
+}
+
+@media screen and (max-width:1024px) {
+    .op1{
+        position: relative;
+        left: 9.5rem;
+        top: -70rem;
+    }
+    .op2{
+        position: relative;
+        left: 9.5rem;
+    }
+    
+    
+    .op3{
+        position: relative;
+        left: 31rem;
+        top: -97rem;
+    }
+    
+    
+    .op4{
+        position: relative;
+        bottom: 44.5rem;
+        left: 9.5rem;
+    }
+    
+    
+    .op5{
+        position: relative;
+        bottom: 77rem;
+        left: 31rem;
+    }
+    
+    
+    .op6{
+        position: relative;
+        bottom: 51.5rem;
+        left: 31rem;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .op1{
+        position: relative;
+        left: 7rem;
+        top: -70rem;
+    }
+    .op2{
+        position: relative;
+        left: 7rem;
+    }
+    
+    
+    .op3{
+        position: relative;
+        left: 29rem;
+        top: -97rem;
+    }
+    
+    
+    .op4{
+        position: relative;
+        bottom: 44.5rem;
+        left: 7.5rem;
+    }
+    
+    
+    .op5{
+        position: relative;
+        bottom: 77rem;
+        left: 19em;
+    }
+    
+    
+    .op6{
+        position: relative;
+        bottom: 51.5rem;
+        left: 29rem;
+    }
+
+}
