@@ -1,0 +1,62 @@
+.navegación{
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: initial;
+    background-color: #202020;
+
+}
+
+.navegación ul{
+    list-style: none;    
+    background-color: #202020;
+
+}
+
+
+.menú > li{
+    /*position: relative;*/
+    display: inline-block;
+}
+
+.menú > li > a{
+    display: block;
+    padding: 41px 30px;
+    color: white;
+    text-decoration: none;
+    background-color: #202020;
+    width: 100%;
+}
+
+.menú li a:hover{
+    color:#202020;
+    transition: all 0.5s;
+    background-color: white;
+}
+
+/*submenú*/
+
+.submenú{
+    position: absolute;
+    visibility: hidden;
+    color: white;
+    opacity: 0;
+    transition: opacity .5s;
+    font-weight: 100;
+}
+
+.submenú li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #202020;
+    color: white;
+}
+
+.menú li:hover .submenú{
+    visibility: visible;
+    opacity: 1;
+}
